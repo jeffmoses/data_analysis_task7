@@ -1,0 +1,25 @@
+# DON'T LOOK AT THE SECOND FILE data **visualisation_task7.ipynb** I DELETED IT.
+
+#How to use the code 
+Data Analysis and Visualization with PythonThis project provides a comprehensive example of a basic data analysis and visualization workflow using Python.
+The script demonstrates how to load a dataset, perform exploratory data analysis, and create various plots to visualize the data.
+Project DescriptionThe Python script data_analysis.py performs the following three main tasks:
+
+#Task 1: Data ExplorationLoading: Loads the well-known Iris dataset using the scikit-learn library.
+Inspection: Displays the first few rows of the DataFrame and provides a summary of its structure and data types.
+Cleaning: Includes commented-out examples of how to handle missing data, even though the Iris dataset is clean.
+
+#Task 2: Basic Data AnalysisStatistics: Computes and displays key descriptive statistics for all numerical columns.
+Groupings: Groups the data by a categorical feature (species) to calculate the average of a numerical column (sepal length).
+Pattern Identification: Provides a brief analysis of the observed patterns.
+
+#Task 3: Data VisualizationLine Chart: A line plot to show a trend (using the sample index as a proxy for time).
+Bar Chart: A bar chart comparing the average sepal length across different species.
+Histogram: A histogram to show the distribution of petal length.
+Scatter Plot: A scatter plot to visualize the relationship between sepal and petal length.
+PrerequisitesTo run this script, you need to have the following libraries installed in your Python environment:
+pandasmatplotlibscikit-learnYou can install them using pip:pip install pandas matplotlib scikit-learn
+
+#How to RunSave the provided Python code as data_analysis.py.
+Open your terminal or command prompt.Navigate to the directory where you saved the file.Run the script using the following command:python data_analysis.py
+After running, the script will print information to the console and display a window with the four generated plots.
